@@ -1,6 +1,6 @@
 .socialNetworksContainer {
   position: relative;
-  right: 40rem;
+  right: 96%;
 }
 
 .footerSpacer {
@@ -8,5 +8,6 @@
 }
 
 .acceptedPaymentMethodContainer {
+  margin-top: 0.5rem;
   margin-left: 1.75rem;
 }

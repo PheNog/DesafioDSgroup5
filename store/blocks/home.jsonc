@@ -110,8 +110,12 @@
     "children": [
       "modal-trigger#quickview",
       "product-summary-name",
-      "product-selling-price"
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
     ]
+    
   },
   "modal-trigger#quickview": {
     "children": [

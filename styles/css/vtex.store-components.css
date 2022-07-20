@@ -121,19 +121,22 @@
 }
 
 .imageElement--logo-footer {
-  margin-left: 122rem;
+  height: 3rem;
+  margin-left: 444%;
   position: relative;
-  bottom: 9rem;
+  bottom: 5rem;
 }
 
 .imageElement--logo-footer2 {
-  margin-left: 73rem;
+  height: 3rem;
+  margin-left: 266%;
   position: relative;
-  bottom: 9rem;
+  bottom: 5rem;
 }
 
 .imageElement--logo-footer3 {
-  margin-left: 24rem;
+  height: 3rem;
+  margin-left: 88%;
   position: relative;
-  bottom: 9rem;
+  bottom: 5rem;
 }

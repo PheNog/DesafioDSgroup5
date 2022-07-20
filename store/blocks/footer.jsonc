@@ -92,21 +92,18 @@
   "image#hiring": {
     "props": {
       "src": "https://yt3.ggpht.com/7wLVndBMnRPH8zDHjTnK5yvoVaPxQOg8kOtPzou0XeNKOCvG7h6qKyjEhrvE0BylFMQrR_DqBYU=s900-c-k-c0x00ffffff-no-rj",
-      "maxWidth": "10%",
       "blockClass":"logo-footer"
     }
   },
   "image#vtex": {
     "props": {
       "src": "https://media-exp1.licdn.com/dms/image/C4E0BAQGuwANNml02DA/company-logo_200_200/0/1626116372683?e=2147483647&v=beta&t=GUc1RJYmLeMFHwhSYHC_IynTKlA1o-Xe0EQhQMXWJA0",
-      "maxWidth": "10%",
       "blockClass":"logo-footer2"
     }
   },
   "image#gama": {
     "props": {
       "src": "https://yt3.ggpht.com/ytc/AKedOLRBHtuUQjZBjJsp7QzSu8rlKZIIEtTQNvDUfHYV=s900-c-k-c0x00ffffff-no-rj",
-      "maxWidth": "10%",
       "blockClass":"logo-footer3"
     }
   }
