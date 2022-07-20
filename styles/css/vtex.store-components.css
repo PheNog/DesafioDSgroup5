@@ -20,7 +20,8 @@
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  padding: 10px 10px;
+  margin-top: 1.5rem;
 }
 
 .label {
@@ -113,6 +114,26 @@
   image-rendering: -webkit-optimize-contrast;
 }
 
-.imageElement {
-  display: flex;
+.infoCardHeadline,
+.infoCardSubhead,
+.infoCardCallActionText {
+  color: #141f31;
+}
+
+.imageElement--logo-footer {
+  margin-left: 122rem;
+  position: relative;
+  bottom: 9rem;
+}
+
+.imageElement--logo-footer2 {
+  margin-left: 73rem;
+  position: relative;
+  bottom: 9rem;
+}
+
+.imageElement--logo-footer3 {
+  margin-left: 24rem;
+  position: relative;
+  bottom: 9rem;
 }

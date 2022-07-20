@@ -1,117 +1,131 @@
 {
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "__fold__",
-      "rich-text#shelf-title",
-      "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter",
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile",
+      "responsive-layout.desktop#titled",
+      "responsive-layout.mobile#title",
+      "info-card#button-right",
+      "info-card#button-left",
+      "rich-text#3",
       "list-context.product-list",
-      "list-context.product-list",
-      "modal-trigger#quickview"
+      "newsletter"
     ]
   },
-
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  //desktop
+  "rich-text#3": {
     "props": {
-      "height": 570,
-      "preload": true,
-      "images": [
-        {
-          "image": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png",
-          "mobileImage": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/1021c8c1-b5e6-4b55-b2e9-bac6ce14823d___c426c7154299e2077c208d7b686479a2.png"
-        }      ]
+      "text": " ### Confira mais produtos:",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-home2"
     }
   },
-  "slider-layout#demo-images": {
+  "image#desktop": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "src": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png",
+      "maxWidth": "100%"
     }
   },
-
-  "rich-text#shelf-title": {
+  "image#mobile": {
     "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
+      "src":  "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/1021c8c1-b5e6-4b55-b2e9-bac6ce14823d___c426c7154299e2077c208d7b686479a2.png",
+      "maxWidth": "100%"
     }
   },
-  "flex-layout.row#shelf": {
-    "children": ["list-context.product-list"]
-  },
-  "list-context.product-list": {
-       "blocks": ["product-summary.shelf"],
-       "children": ["slider-layout"]
-     },
-     "product-summary.shelf": {
-       "children": [
-         "product-summary-name",
-         "product-selling-price"
-     ]
-    },
-    "modal-trigger#quickview": {
-         "children": ["product-summary-image", "modal-layout#quickview"]
-       },
-       "modal-layout#quickview": {
-           "children": [
-             "product-summary-name",
-             "product-images",
-             "product-summary-sku-selector",
-             "product-summary-quantity",
-            "add-to-cart-button"
-          ]
-        },
-  "slider-layout#demo-products": {
+  "rich-text#titled": {
     "props": {
-      "itemsPerPage": {
-        "desktop": 4,
-        "tablet": 3,
-        "phone": 1
-      },
-      "infinite": true,
-      "fullWidth": false,
-      "blockClass": "shelf"
+      "text": " # **LOJA DREAMSCAPE**  \n ### Os melhores produtos do metaverso no seu desktop.",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-home"
     }
   },
-
-  "info-card#home": {
+  //mobile
+  "rich-text#title": {
     "props": {
-      "id": "info-card-home",
+      "text": " # **LOJA DREAMSCAPE**  \n ### Os melhores produtos do metaverso também no celular!",
+      "textPosition": "CENTER",
+      "textAlignment": "CENTER",
+      "blockClass": "text-home"
+    }
+  },
+  "info-card#button-right": {
+    "props": {
       "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/99040364-04a7-4eed-be97-393b55333a9e___b6103eca7cd270f6feeaef9b5abc2e5d.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
+      "textPosition": "right",
+      "imageUrl": "https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg",
+    "headline": "Coleção Exclusiva",
+      "subhead": "Decore sua casa, compre eletrônicos, roupas e até automóveis! temos tudo que você precisa.",
+      "callToActionMode": "button",
+      "callToActionText": "CONHEÇA",
+      "callToActionUrl": "/landing",
       "textAlignment": "center"
     }
   },
-
-  "rich-text#question": {
+  "info-card#button-left": {
     "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/99040364-04a7-4eed-be97-393b55333a9e___b6103eca7cd270f6feeaef9b5abc2e5d.png",
+      "headline": "DreamScapers",
+      "subhead":"Produtos sob medida para os integrantes da melhor casa do HiringCoders." ,
+      "callToActionMode": "link",
+      "callToActionText": "Va para a coleção",
+      "textAlignment": "center"
     }
   },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "image#desktop"
+    ]
+  },
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "image#mobile"
+    ]
+  },
+  "responsive-layout.desktop#titled": {
+    "children": [
+      "rich-text#titled"
+    ]
+  },
+  "responsive-layout.mobile#title": {
+    "children": [
+      "rich-text#title"
+    ]
+  },
+ 
+  
+  
+  "list-context.product-list": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "children": [
+      "slider-layout"
+    ]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "modal-trigger#quickview",
+      "product-summary-name",
+      "product-selling-price"
+    ]
+  },
+  "modal-trigger#quickview": {
+    "children": [
+      "product-summary-image",
+      "modal-layout#quickview"
+    ]
+  },
+  "modal-layout#quickview": {
+    "children": [
+      "product-summary-name",
+      "product-images",
+      "product-summary-sku-selector",
+      "product-summary-quantity",
+      "add-to-cart-button"
+    ]
   }
 }
