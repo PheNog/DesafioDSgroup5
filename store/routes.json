@@ -4,5 +4,8 @@
     },
     "store.custom#landing": {
       "path": "/landing"
+    },
+    "store.custom#endpoint": {
+      "path": "/DreamCoins"
     }
   }

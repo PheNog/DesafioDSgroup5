@@ -116,3 +116,39 @@
     line-height: 1.3em;
   }
 }
+
+.strong--text-endpoint {
+  color: #141f31;
+  font-size: 1.5rem;
+}
+
+.heading--text-endpoint {
+  color: #141f31;
+  padding: 2rem;
+  font-size: 2.3rem;
+  margin: 0;
+}
+
+.heading--title-endpoint {
+  color: #141f31;
+  font-size: 3.5rem;
+  width: 38rem;
+}
+
+.strong--text-endpoint-mobile {
+  color: #141f31;
+  font-size: 1rem;
+}
+
+.heading--text-endpoint-mobile {
+  color: #141f31;
+  padding: 2.2rem;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.heading--title-endpoint-mobile {
+  color: #141f31;
+  font-size: 3rem;
+  width: 24rem;
+}

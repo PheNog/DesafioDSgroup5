@@ -51,7 +51,9 @@
     "vtex.modal-layout": "0.x",
     "vtex.product-price": "1.x",
     "vtex.search-graphql": "0.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "dreamscape.walletpointds5": "0.x",
+    "dreamscape.backend-ds5": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

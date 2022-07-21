@@ -140,3 +140,7 @@
   position: relative;
   bottom: 5rem;
 }
+.imageElement--image-home {
+  z-index: 2;
+  width: 100%;
+}

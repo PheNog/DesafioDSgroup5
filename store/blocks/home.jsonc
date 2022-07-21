@@ -1,3 +1,5 @@
+
+
 {
   "store.home": {
     "blocks": [
@@ -21,18 +23,35 @@
       "blockClass": "text-home2"
     }
   },
+  "responsive-layout.desktop#desktop": {
+    "children": [
+      "image#desktop"
+      
+    ]
+  },
+  "responsive-layout.mobile#mobile": {
+    "children": [
+      "image#mobile"
+      
+    ]
+  },
   "image#desktop": {
     "props": {
       "src": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png",
-      "maxWidth": "100%"
+      "maxWidth": "100%",
+      "blockClass": "image-home"
     }
   },
+ 
+
+
   "image#mobile": {
     "props": {
-      "src":  "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/1021c8c1-b5e6-4b55-b2e9-bac6ce14823d___c426c7154299e2077c208d7b686479a2.png",
+      "src":  "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/ad9409ae-5995-4106-b825-62542ae697c3___798e34ccd732a8dab41bd002a70b2106.png",
       "maxWidth": "100%"
     }
   },
+
   "rich-text#titled": {
     "props": {
       "text": " # **LOJA DREAMSCAPE**  \n ### Os melhores produtos do metaverso no seu desktop.",
@@ -54,12 +73,12 @@
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
-      "imageUrl": "https://cdn.pixabay.com/photo/2016/10/11/21/43/geometric-1732847_960_720.jpg",
-    "headline": "Coleção Exclusiva",
-      "subhead": "Decore sua casa, compre eletrônicos, roupas e até automóveis! temos tudo que você precisa.",
+      "imageUrl": "https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/ddd27119-5ed4-46b7-b16d-b6b95184e9a5___8cdd03b1b88fdbc086daeace8a4bd2ba.png",
+    "headline": "DreamCoins",
+      "subhead": "Uma recompensa exclusiva da nossa loja, clique em saiba mais e descubra como ganhar as suas. ",
       "callToActionMode": "button",
-      "callToActionText": "CONHEÇA",
-      "callToActionUrl": "/landing",
+      "callToActionText": "Saiba mais",
+      "callToActionUrl": "/DreamCoins",
       "textAlignment": "center"
     }
   },
@@ -75,16 +94,7 @@
       "textAlignment": "center"
     }
   },
-  "responsive-layout.desktop#desktop": {
-    "children": [
-      "image#desktop"
-    ]
-  },
-  "responsive-layout.mobile#mobile": {
-    "children": [
-      "image#mobile"
-    ]
-  },
+
   "responsive-layout.desktop#titled": {
     "children": [
       "rich-text#titled"

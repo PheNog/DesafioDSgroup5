@@ -35,6 +35,7 @@
     },
     "children": [
       "flex-layout.col#logo-desk",
+      "wallet",
       "flex-layout.col#spacer",
       "search-bar",
       "locale-switcher",
@@ -91,9 +92,7 @@
   "drawer": {
     "children": [
       "login",
-      "search-bar",
-      "locale-switcher",
-      "minicart.v2"
+      "wallet"
     ]
   }
 }

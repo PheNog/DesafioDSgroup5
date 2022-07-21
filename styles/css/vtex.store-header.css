@@ -27,7 +27,7 @@
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
 :global(.vtex-sticky-layout-0-x-wrapper--stuck)
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 5px rgba(40, 6, 205, 0.685);
 }
 
 /*
@@ -55,13 +55,13 @@
     :global(.vtex-flex-layout-0-x-flexRowContent),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent-mobile) {
-    background: rgba(240, 240, 240, 0.8);
+    background: #64faf9;
   }
 }
 
 /* stick wrapper with the same color as the desktop/mobile header */
 :global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
-  background-color: #f0f0f0;
+  background-color: #0965b5;
 }
 
 /* resize the logo for neat effect */
