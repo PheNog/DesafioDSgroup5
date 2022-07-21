@@ -1,0 +1,8 @@
+query  ($iduser: String!){
+  queryClientWallet (userId:$iduser){
+    id
+    userId
+    balance
+    
+  }
+}

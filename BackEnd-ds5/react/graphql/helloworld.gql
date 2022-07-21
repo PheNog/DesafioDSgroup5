@@ -1,0 +1,8 @@
+query myQuery {
+  queryClientWallet(userId: "01864ade-2de1-4916-adf2-32ada24e9fc4") {
+    id
+    userId
+    balance
+    
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "memory": 512,
+  "ttl": 10,
+  "timeout": 10,
+  "minReplicas": 2,
+  "maxReplicas": 10,
+  "workers": 5,
+  "routes": {
+     "clientWallet": {
+      "path": "/_v/app/clientWallet",
+      "public": true
+    }    
+  },
+  "events": {
+    "orderStatusBroadcasted": {
+      "sender": "vtex.orders-broadcast",
+      "topics": ["payment-approved"]
+    }
+  }
+}
+
