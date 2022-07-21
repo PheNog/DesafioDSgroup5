@@ -9,14 +9,6 @@
 
 <img src="https://dreamscape.vtexassets.com/assets/vtex.file-manager-graphql/images/923aab7b-457b-4a72-90f9-b4641f810fc2___ffe6b2b6cf146ec503007dc90e070d76.png"/>
 
-<p hidden align="center">
-  <img src="https://img.shields.io/badge/"/>
-  <img src="https://img.shields.io/badge/"/>
-  <img src="https://img.shields.io/badge/"/>
-  <img src="https://img.shields.io/badge/"/>
-  <img src="https://img.shields.io/badge/"/>
-</p>
-
 # Desafio da Semifinal
 ## Sumário
 :small_blue_diamond: [Cenário](#Cenário)<br>
